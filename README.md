@@ -7,3 +7,8 @@
 <a name="introduction"/>
 
 ## Введение
+Блаблабла
+<a name="domainDescription"/>
+
+## 1. Описание предметной области
+Бла бла бла
