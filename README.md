@@ -20,7 +20,12 @@
 
 ## 2. Сравнительный анализ существующих программных решений
 Бла+бла-бла
+<a name="domainDescription"/>
 ## 3. Проектирование
+<a name="design"/>
 ## 4. Тестирование
+<a name="domainDescription"/>
 ## Заключение
+<a name="domainDescription"/>
 ## Список литературы
+<a name="domainDescription"/>
