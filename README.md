@@ -6,7 +6,7 @@
 [3. Проектирование](#design)  
 [4. Тестирование](#testing)    
 [Заключение](#conclusion)  
-[Список литературы](#bibliography)
+[Список литературы](#literature)
 
 <a name="introduction"/>
 
@@ -46,6 +46,6 @@
 <a name="conclusion"/>
 
 ## Заключение
-<a name="bibliography"/>
+<a name="literature"/>
 
 ## Список литературы
