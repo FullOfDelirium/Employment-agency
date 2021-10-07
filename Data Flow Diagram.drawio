@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-06T18:25:45.178Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 OPR/79.0.4143.72" etag="X1CxmZ-crkx08bgc6-cc" version="15.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-07T08:52:03.567Z" agent="5.0 (Windows)" etag="4Bl3jQ51DD2iyyrDN0SF" version="15.4.3" type="github">
   <diagram id="C21_k85sb6ZyRS77wJrD" name="Page-1">
-    <mxGraphModel dx="1590" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -54,7 +54,7 @@
         <mxCell id="pQPMlpZ6iSRC3UOApfKj-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="pQPMlpZ6iSRC3UOApfKj-1" target="qvLsPSN7j7izspv_ZfGc-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pQPMlpZ6iSRC3UOApfKj-1" value="Список вакансий" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
+        <mxCell id="pQPMlpZ6iSRC3UOApfKj-1" value="Вакансии" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
           <mxGeometry x="355" y="790" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vGuwMdQloGmD3DE4HRwy-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="pQPMlpZ6iSRC3UOApfKj-3" target="vGuwMdQloGmD3DE4HRwy-1" edge="1">
@@ -68,12 +68,6 @@
         </mxCell>
         <mxCell id="vGuwMdQloGmD3DE4HRwy-1" value="Открыть&lt;br&gt;карточку&lt;br&gt;вакансии" style="html=1;dashed=0;whitespace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="640" y="700" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="vGuwMdQloGmD3DE4HRwy-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="vGuwMdQloGmD3DE4HRwy-3" target="vGuwMdQloGmD3DE4HRwy-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="vGuwMdQloGmD3DE4HRwy-3" value="Информация &lt;br&gt;о вакансии" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
-          <mxGeometry x="635" y="790" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ISG6JPcZXc1P4ELiFwxI-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="W4q43Aq9jghr6jQ2ZjRL-1" target="pQPMlpZ6iSRC3UOApfKj-3" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -109,9 +103,6 @@
         </mxCell>
         <mxCell id="iEgB-U53n_eqfNML0eOX-2" value="Отправить&lt;br&gt;заявку" style="html=1;dashed=0;whitespace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1160" y="700" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Db4a7CwUrQpfsaG22Oow-1" value="Информация &lt;br&gt;о вакансии" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
-          <mxGeometry x="635" y="790" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Db4a7CwUrQpfsaG22Oow-2" value="Заявки" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
           <mxGeometry x="1155" y="790" width="110" height="30" as="geometry" />
@@ -349,12 +340,6 @@
         <mxCell id="IK7K3Vku0Z96cUypJDgi-11" value="Резюме" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
           <mxGeometry x="1120" y="415" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IK7K3Vku0Z96cUypJDgi-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" source="IK7K3Vku0Z96cUypJDgi-15" target="IK7K3Vku0Z96cUypJDgi-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="IK7K3Vku0Z96cUypJDgi-15" value="Информация&lt;br&gt;&amp;nbsp;о вакансии" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
-          <mxGeometry x="1415" y="415" width="110" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="IK7K3Vku0Z96cUypJDgi-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" source="IK7K3Vku0Z96cUypJDgi-16" target="IK7K3Vku0Z96cUypJDgi-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -410,12 +395,6 @@
         <mxCell id="IK7K3Vku0Z96cUypJDgi-34" value="Посмотреть&lt;br&gt;результат &lt;br&gt;модерации" style="html=1;dashed=0;whitespace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1921" y="415" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="IK7K3Vku0Z96cUypJDgi-52" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="IK7K3Vku0Z96cUypJDgi-40" target="IK7K3Vku0Z96cUypJDgi-42" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="IK7K3Vku0Z96cUypJDgi-40" value="Информация&lt;br&gt;&amp;nbsp;о резюме" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
-          <mxGeometry x="965" y="415" width="110" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="IK7K3Vku0Z96cUypJDgi-53" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="IK7K3Vku0Z96cUypJDgi-42" target="IK7K3Vku0Z96cUypJDgi-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -440,13 +419,13 @@
         <mxCell id="IK7K3Vku0Z96cUypJDgi-57" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="IK7K3Vku0Z96cUypJDgi-49" target="IK7K3Vku0Z96cUypJDgi-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IK7K3Vku0Z96cUypJDgi-49" value="Забраковать&lt;br&gt;резюме" style="html=1;dashed=0;whitespace=wrap;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+        <mxCell id="IK7K3Vku0Z96cUypJDgi-49" value="Отклонить &lt;br&gt;резюме" style="html=1;dashed=0;whitespace=wrap;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
           <mxGeometry x="765" y="385" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IK7K3Vku0Z96cUypJDgi-58" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="IK7K3Vku0Z96cUypJDgi-50" target="IK7K3Vku0Z96cUypJDgi-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IK7K3Vku0Z96cUypJDgi-50" value="Вакансии" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
+        <mxCell id="IK7K3Vku0Z96cUypJDgi-50" value="Резюме" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
           <mxGeometry x="620" y="340" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
