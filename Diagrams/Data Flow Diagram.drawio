@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T13:12:44.490Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 OPR/80.0.4170.40" etag="tzDoJxDyyq7PDSH71EAI" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-21T05:42:27.950Z" agent="5.0 (Windows)" etag="tmXOYONyiiP2HXo1ZIXx" version="15.5.2" type="github">
   <diagram id="C21_k85sb6ZyRS77wJrD" name="Page-1">
-    <mxGraphModel dx="1211" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="865" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -356,10 +356,10 @@
         <mxCell id="IK7K3Vku0Z96cUypJDgi-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" source="IK7K3Vku0Z96cUypJDgi-26" target="IK7K3Vku0Z96cUypJDgi-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IK7K3Vku0Z96cUypJDgi-26" value="Забраковать&lt;br&gt;Вакансию" style="html=1;dashed=0;whitespace=wrap;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+        <mxCell id="IK7K3Vku0Z96cUypJDgi-26" value="Отклонить&lt;br&gt;Вакансию" style="html=1;dashed=0;whitespace=wrap;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
           <mxGeometry x="1630" y="380" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="IK7K3Vku0Z96cUypJDgi-36" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="IK7K3Vku0Z96cUypJDgi-29" edge="1">
+        <mxCell id="IK7K3Vku0Z96cUypJDgi-36" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="IK7K3Vku0Z96cUypJDgi-29" edge="1" target="IK7K3Vku0Z96cUypJDgi-34">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1920" y="440" as="targetPoint" />
           </mxGeometry>
