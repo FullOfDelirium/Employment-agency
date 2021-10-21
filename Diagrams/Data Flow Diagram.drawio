@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T05:42:27.950Z" agent="5.0 (Windows)" etag="tmXOYONyiiP2HXo1ZIXx" version="15.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-21T05:43:31.221Z" agent="5.0 (Windows)" etag="gM5K_QQQ0YfHXPj0OQmr" version="15.5.2" type="github">
   <diagram id="C21_k85sb6ZyRS77wJrD" name="Page-1">
-    <mxGraphModel dx="865" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -265,7 +265,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="teQJ-WNyYSYPGvEql-g7-20" value="Ответ на заявки/&lt;br&gt;резюме" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
+        <mxCell id="teQJ-WNyYSYPGvEql-g7-20" value="Ответ на заявки/&lt;br&gt;резюме" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1540" y="630" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IK7K3Vku0Z96cUypJDgi-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" source="IK7K3Vku0Z96cUypJDgi-1" target="IK7K3Vku0Z96cUypJDgi-2" edge="1">
