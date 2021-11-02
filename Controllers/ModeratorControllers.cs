@@ -11,25 +11,25 @@ namespace Employment.Controllers
     [Route("/Moderator")]
     public class ModertatorController : ControllerBase
     {
-        [HttpGet("Viewresume")]
-        public string Viewresume(string str)
+        [HttpGet("ViewResume")]
+        public string ViewResume(string str)
         {
             return str;// просмотр резюме
         }
 
-        [HttpGet("Viewvacancies")]
+        [HttpGet("ViewVacancies")]
         public string Viewvacancies(string str)
         {
             return str;// просмотр вакансий
         }
 
-        [HttpPost("Rejectvacancy")]
+        [HttpPost("RejectVacancy")]
         public string Rejectvacancy(string str)
         {
             return str;// забраковать вакансию
         }
 
-        [HttpPost("Acceptvacancy")]
+        [HttpPost("AcceptVacancy")]
         public string Acceptapplication(string str)
         {
             return str;// одобрить вакансию

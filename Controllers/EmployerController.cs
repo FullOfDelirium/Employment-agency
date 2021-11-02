@@ -11,31 +11,31 @@ namespace Employment.Controllers
     [Route("/Employer")]
     public class EmployerController : ControllerBase
     {
-        [HttpPost("Createvacancies")]
+        [HttpPost("CreateVacancies")]
         public string Createvacancies(string str)
         {
             return str;// создать вакансии
         }
 
-        [HttpGet("Viewresume")]
+        [HttpGet("ViewResume")]
         public string Viewresume(string str)
         {
             return str;// просмотр резюме
         }
 
-        [HttpGet("Viewrequest")]
+        [HttpGet("ViewVequest")]
         public string Viewrequest(string str)
         {
             return str;// просмотр заявки
         }
 
-        [HttpPost("Rejecttheapplication")]
+        [HttpPost("RejectApplication")]
         public string Rejecttheapplication(string str)
         {
             return str;// отклонить заявку
         }
 
-        [HttpPost("Acceptapplication")]
+        [HttpPost("AcceptApplication")]
         public string Acceptapplication(string str)
         {
             return str;// принять заявку
