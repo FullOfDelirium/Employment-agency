@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T12:17:17.401Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 OPR/80.0.4170.63" etag="R69XvuVcRGdiwLIeL-wo" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-03T12:18:46.087Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 OPR/80.0.4170.63" etag="e6lgaR6te3uRG4WheCsy" version="15.6.8" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1211" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -88,7 +88,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8Ya2a5xR0wPzPnH6ELW8-29" value="Вакансии" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="360" y="40" width="250" height="330" as="geometry">
+          <mxGeometry x="840" y="40" width="250" height="330" as="geometry">
             <mxRectangle x="120" y="120" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -223,7 +223,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8Ya2a5xR0wPzPnH6ELW8-57" value="Заявки" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=default;strokeColor=default;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="680" y="40" width="250" height="180" as="geometry">
+          <mxGeometry x="400" y="40" width="250" height="180" as="geometry">
             <mxRectangle x="120" y="120" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -363,7 +363,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8Ya2a5xR0wPzPnH6ELW8-102" value="Работодатель" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="360" y="480" width="250" height="120" as="geometry">
+          <mxGeometry x="840" y="480" width="250" height="120" as="geometry">
             <mxRectangle x="120" y="120" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -407,7 +407,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8Ya2a5xR0wPzPnH6ELW8-124" value="Модератор" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="680" y="480" width="250" height="120" as="geometry">
+          <mxGeometry x="40" y="720" width="250" height="120" as="geometry">
             <mxRectangle x="120" y="120" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
