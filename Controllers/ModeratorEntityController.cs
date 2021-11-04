@@ -11,7 +11,7 @@ namespace Employment.Controllers
     [Route("/ModeratorEntity")]
     public class ModeratorEntityController : ControllerBase
     {
-        [HttpPut("Create")]
+        [HttpPost("Create")]
         public string Create(string str)
         {
             return str;
@@ -23,7 +23,7 @@ namespace Employment.Controllers
             return str;
         }
 
-        [HttpPatch("Update")]
+        [HttpPut("Update")]
         public string Update(string str)
         {
             return str;
