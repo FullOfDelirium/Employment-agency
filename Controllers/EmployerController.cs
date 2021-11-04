@@ -40,5 +40,29 @@ namespace Employment.Controllers
         {
             return str;// принять заявку
         }
+
+        [HttpPost]
+        public string Create(string str)
+        {
+            return str;
+        }
+
+        [HttpGet]
+        public string Read(string str)
+        {
+            return str;
+        }
+
+        [HttpPut]
+        public string Update(string str)
+        {
+            return str;
+        }
+
+        [HttpDelete]
+        public string Delete(string str)
+        {
+            return str;
+        }
     }
 }

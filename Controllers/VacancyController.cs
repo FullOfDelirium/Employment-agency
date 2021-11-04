@@ -11,25 +11,25 @@ namespace Employment.Controllers
     [Route("/Vacancy")]
     public class VacancyController : ControllerBase
     {
-        [HttpPost("Create")]
+        [HttpPost]
         public string Create(string str)
         {
             return str;
         }
 
-        [HttpGet("Read")]
+        [HttpGet]
         public string Read(string str)
         {
             return str;
         }
 
-        [HttpPut("Update")]
+        [HttpPut]
         public string Update(string str)
         {
             return str;
         }
 
-        [HttpDelete("Delete")]
+        [HttpDelete]
         public string Delete(string str)
         {
             return str;
