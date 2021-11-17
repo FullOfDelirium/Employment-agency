@@ -36,4 +36,4 @@
 <a name="literature"/>
 
 ## Список литературы
-<span style="vertical-align: baseline; position: relative;top: -0.5em;>
+<sup>superscript</sup>
