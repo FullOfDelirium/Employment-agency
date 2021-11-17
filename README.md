@@ -36,4 +36,4 @@
 <a name="literature"/>
 
 ## Список литературы
-<sup>superscript</sup>
+2<sup>3</sup>
