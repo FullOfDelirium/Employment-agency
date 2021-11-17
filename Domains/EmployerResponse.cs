@@ -11,5 +11,11 @@ namespace Praktika
 
         public string RStatus { get; set; }
 
+        EmployerResponse(int RStatusCode, int EmlopyerCode, string RStatus)
+        {
+            this.EmployerCode = EmployerCode;
+            this.RStatusCode = RStatusCode;
+            this.RStatus = RStatus;
+        }
     }
 }

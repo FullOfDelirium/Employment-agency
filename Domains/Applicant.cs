@@ -14,5 +14,13 @@ namespace Praktika
 
         public string PhoneNum { get; set; }
 
+        Applicant(int ApplicantCode, string FIO, string Gender, int Age, string PhoneNum)
+        {
+            this.ApplicantCode = ApplicantCode;
+            this.FIO = FIO;
+            this.Gender = Gender;
+            this.Age = Age;
+            this.PhoneNum = PhoneNum;
+        }
     }
 }

@@ -2,7 +2,7 @@ using System;
 
 namespace Praktika
 {
-    public class Empoyer
+    public class Employer
     {
         
         public int EmployerCode { get; set; }
@@ -11,5 +11,11 @@ namespace Praktika
 
         public string PhoneNum { get; set; }
 
+        Employer(int EmlopyerCode, string Organization, string PhoneNum)
+        {
+            this.EmployerCode = EmployerCode;
+            this.Organization = Organization;
+            this.PhoneNum = PhoneNum;
+        }
     }
 }

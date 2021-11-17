@@ -11,7 +11,7 @@ namespace Praktika
 
         public string Post { get; set; }
 
-        public string salary { get; set; }
+        public string Salary { get; set; }
 
         public string KindOfWork { get; set; }
 
@@ -26,5 +26,21 @@ namespace Praktika
         public string City { get; set; }
 
         public int VStatusCode { get; set; }
+
+        Vacancy(int VacancyNum, int EmployerCode, string Post, string Salary, string KindOfWork, 
+            string Schelude, string Post, string RequiredExperience, string RequiredEducation, string City, int VStatusCode)
+        {
+            this.VacancyNum = VacancyNum;
+            this.EmployerCode = EmployerCode;
+            this.Post = Post;
+            this.Salary = Salary;
+            this.KindOfWork = KindOfWork;
+            this.Schelude =Schelude;
+            this.Post = Post;
+            this.RequiredExperience = RequiredExperience;
+            this.RequiredEducation = RequiredEducation;
+            this.City = City;
+            this.VStatusCode = VStatusCode;
+        }
     }
 }
