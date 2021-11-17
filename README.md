@@ -36,4 +36,4 @@
 <a name="literature"/>
 
 ## Список литературы
-2^10^
+<span style="vertical-align: baseline; position: relative;top: -0.5em;>text in superscript</span>
