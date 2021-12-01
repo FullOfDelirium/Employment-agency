@@ -1,8 +1,9 @@
 using System;
+using Praktika.repository;
 
-namespace Praktika
+namespace Praktika.Domains
 {
-    public class Vacancy
+    public class Vacancy: WithID
     {
 
         public int VacancyNum { get; set; }
@@ -17,8 +18,6 @@ namespace Praktika
 
         public string Schelude { get; set; }
 
-        public string Post { get; set; }
-
         public string RequiredExperience { get; set; }
 
         public string RequiredEducation { get; set; }
@@ -28,7 +27,7 @@ namespace Praktika
         public int VStatusCode { get; set; }
 
         public Vacancy(int vacancyNum, int employerCode, string post, string salary, string kindOfWork, 
-            string schelude, string post, string requiredExperience, string requiredEducation, string city, int vStatusCode)
+            string schelude, string requiredExperience, string requiredEducation, string city, int vStatusCode)
         {
             VacancyNum = vacancyNum;
             EmployerCode = employerCode;
@@ -36,7 +35,6 @@ namespace Praktika
             Salary = salary;
             KindOfWork = kindOfWork;
             Schelude = schelude;
-            Post = post;
             RequiredExperience = requiredExperience;
             RequiredEducation = requiredEducation;
             City = city;

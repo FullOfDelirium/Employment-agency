@@ -1,8 +1,10 @@
 using System;
+using System.Collections.Generic;
+using Praktika.repository;
 
-namespace Praktika
+namespace Praktika.Domains
 {
-    public class Resume
+    public class Resume: WithID
     {
         public int ResumeNum { get; set; }
 

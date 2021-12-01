@@ -1,8 +1,9 @@
 using System;
+using Praktika.repository;
 
-namespace Praktika
+namespace Praktika.Domains
 {
-    public class Application
+    public class Application: WithID
     {
         public int ApplicationNum { get; set; }
 

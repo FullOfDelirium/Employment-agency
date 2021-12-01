@@ -1,8 +1,9 @@
 using System;
+using Praktika.repository;
 
-namespace Praktika
+namespace Praktika.Domains
 {
-    public class VerificationStatus
+    public class VerificationStatus: WithID
     {
 
         public int VStatusCode { get; set; }

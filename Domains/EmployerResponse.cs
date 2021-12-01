@@ -1,8 +1,9 @@
 using System;
+using Praktika.repository;
 
-namespace Praktika
+namespace Praktika.Domains
 {
-    public class EmpoyerResponse
+    public class EmployerResponse: WithID
     {
 
         public int RStatusCode { get; set; }
@@ -11,9 +12,9 @@ namespace Praktika
 
         public string RStatus { get; set; }
 
-        public EmployerResponse(int rStatusCode, int emlopyerCode, string rStatus)
+        public EmployerResponse(int rStatusCode, int emplopyerCode, string rStatus)
         {
-            EmployerCode = employerCode;
+            EmployerCode = emplopyerCode;
             RStatusCode = rStatusCode;
             RStatus = rStatus;
         }

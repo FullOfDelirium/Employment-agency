@@ -1,8 +1,9 @@
 using System;
+using Praktika.repository;
 
-namespace Praktika
+namespace Praktika.Domains
 {
-    public class Moderator
+    public class Moderator: WithID
     {
         
         public int ModeratorCode { get; set; }
@@ -11,10 +12,10 @@ namespace Praktika
 
         public string PhoneNum { get; set; }
 
-        public Moderator(int moderatorCode, string FIO, string phoneNum)
+        public Moderator(int moderatorCode, string fIO, string phoneNum)
         {
             ModeratorCode = moderatorCode;
-            FIO = FIO;
+            FIO = fIO;
             PhoneNum = phoneNum;
         }
     }
