@@ -11,11 +11,11 @@ namespace Praktika
 
         public string Verdict { get; set; }
 
-        VerificationStatus(int VStatusCode, int ModeratorCode, string Verdict)
+        public VerificationStatus(int vStatusCode, int moderatorCode, string verdict)
         {
-            this.ModeratorCode = ModeratorCode;
-            this.VStatusCode = VStatusCode;
-            this.Verdict = Verdict;
+            ModeratorCode = moderatorCode;
+            VStatusCode = vStatusCode;
+            Verdict = verdict;
         }
     }
 }

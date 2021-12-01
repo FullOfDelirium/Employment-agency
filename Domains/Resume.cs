@@ -18,15 +18,15 @@ namespace Praktika
 
         public int RStatusCode { get; set; }
 
-       Resume(int ResumeNum, int ApplicantCode, int WExperience, string Education, string City, int VStatusCode, int RStatusCode)
+       public Resume(int resumeNum, int applicantCode, int wExperience, string education, string city, int vStatusCode, int rStatusCode)
         {
-            this.ResumeNum =ResumeNum;
-            this.ApplicantCode = ApplicantCode;
-            this.WExperience = WExperience;
-            this.Education = Education;
-            this.City = City;
-            this.VStatusCode = VStatusCode;
-            this.RStatusCode = RStatusCode;
+            ResumeNum = resumeNum;
+            ApplicantCode = applicantCode;
+            WExperience = wExperience;
+            Education = education;
+            City = city;
+            VStatusCode = vStatusCode;
+            RStatusCode = rStatusCode;
         }
     }
 }

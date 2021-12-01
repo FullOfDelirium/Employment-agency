@@ -27,20 +27,20 @@ namespace Praktika
 
         public int VStatusCode { get; set; }
 
-        Vacancy(int VacancyNum, int EmployerCode, string Post, string Salary, string KindOfWork, 
-            string Schelude, string Post, string RequiredExperience, string RequiredEducation, string City, int VStatusCode)
+        public Vacancy(int vacancyNum, int employerCode, string post, string salary, string kindOfWork, 
+            string schelude, string post, string requiredExperience, string requiredEducation, string city, int vStatusCode)
         {
-            this.VacancyNum = VacancyNum;
-            this.EmployerCode = EmployerCode;
-            this.Post = Post;
-            this.Salary = Salary;
-            this.KindOfWork = KindOfWork;
-            this.Schelude =Schelude;
-            this.Post = Post;
-            this.RequiredExperience = RequiredExperience;
-            this.RequiredEducation = RequiredEducation;
-            this.City = City;
-            this.VStatusCode = VStatusCode;
+            VacancyNum = vacancyNum;
+            EmployerCode = employerCode;
+            Post = post;
+            Salary = salary;
+            KindOfWork = kindOfWork;
+            Schelude = schelude;
+            Post = post;
+            RequiredExperience = requiredExperience;
+            RequiredEducation = requiredEducation;
+            City = city;
+            VStatusCode = vStatusCode;
         }
     }
 }

@@ -11,11 +11,11 @@ namespace Praktika
 
         public string PhoneNum { get; set; }
 
-        Employer(int EmlopyerCode, string Organization, string PhoneNum)
+        public Employer(int emlopyerCode, string organization, string phoneNum)
         {
-            this.EmployerCode = EmployerCode;
-            this.Organization = Organization;
-            this.PhoneNum = PhoneNum;
+            EmployerCode = employerCode;
+            Organization = organization;
+            PhoneNum = phoneNum;
         }
     }
 }

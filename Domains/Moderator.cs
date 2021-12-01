@@ -11,11 +11,11 @@ namespace Praktika
 
         public string PhoneNum { get; set; }
 
-        Moderator(int ModeratorCode, string FIO, string PhoneNum)
+        public Moderator(int moderatorCode, string FIO, string phoneNum)
         {
-            this.ModeratorCode = ModeratorCode;
-            this.FIO = FIO;
-            this.PhoneNum = PhoneNum;
+            ModeratorCode = moderatorCode;
+            FIO = FIO;
+            PhoneNum = phoneNum;
         }
     }
 }
