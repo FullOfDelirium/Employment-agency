@@ -36,3 +36,4 @@
 <a name="literature"/>
 
 ## Список литературы
+2<sup>3</sup>
