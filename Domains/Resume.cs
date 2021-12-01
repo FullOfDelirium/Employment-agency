@@ -4,7 +4,7 @@ using Praktika.repository;
 
 namespace Praktika.Domains
 {
-    public class Resume: WithID
+    public class Resume: StID
     {
         public int ResumeNum { get; set; }
 

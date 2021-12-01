@@ -3,7 +3,7 @@ using Praktika.repository;
 
 namespace Praktika.Domains
 {
-    public class Application: WithID
+    public class Application: StID
     {
         public int ApplicationNum { get; set; }
 

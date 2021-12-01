@@ -3,7 +3,7 @@ using Praktika.repository;
 
 namespace Praktika.Domains
 {
-    public class Moderator: WithID
+    public class Moderator: StID
     {
         
         public int ModeratorCode { get; set; }

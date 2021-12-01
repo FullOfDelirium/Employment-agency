@@ -7,7 +7,7 @@ using Praktika.Domains;
 
 namespace Praktika.repository
 {
-    public class WithID
+    public class StID
     {
         public int ID { get; set; }
     }
@@ -24,7 +24,7 @@ namespace Praktika.repository
         public static Storage<VerificationStatus> VerificationStatusStorage { get; } = new Storage<VerificationStatus>();
     }
 
-    public class Storage<St> where St : WithID
+    public class Storage<St> where St : StID
     {
         private static string path = typeof(St).Name + ".xml";
         private List<St> storage = new List<St>();
