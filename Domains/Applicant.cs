@@ -3,8 +3,9 @@ using Praktika.repository;
 
 namespace Praktika.Domains
 {
-    public class Applicant: StID
+    public class Applicant: IIdentifier
     {
+        public int ID { get; set; }
         public int ApplicantCode { get; set; }
 
         public string FIO { get; set; }

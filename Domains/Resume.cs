@@ -4,8 +4,9 @@ using Praktika.repository;
 
 namespace Praktika.Domains
 {
-    public class Resume: StID
+    public class Resume: IIdentifier
     {
+        public int ID { get; set; }
         public int ResumeNum { get; set; }
 
         public int ApplicantCode { get; set; }

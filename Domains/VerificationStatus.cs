@@ -3,9 +3,9 @@ using Praktika.repository;
 
 namespace Praktika.Domains
 {
-    public class VerificationStatus: StID
+    public class VerificationStatus: IIdentifier
     {
-
+        public int ID { get; set; }
         public int VStatusCode { get; set; }
 
         public int ModeratorCode { get; set; }

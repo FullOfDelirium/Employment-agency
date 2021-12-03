@@ -3,8 +3,9 @@ using Praktika.repository;
 
 namespace Praktika.Domains
 {
-    public class Application: StID
+    public class Application: IIdentifier
     {
+        public int ID { get; set; }
         public int ApplicationNum { get; set; }
 
         public int ApplicantCode { get; set; }
@@ -19,9 +20,9 @@ namespace Praktika.Domains
 
         public int RStatusCode { get; set; }
 
-        public Applicantion(int applicantionCode, int applicantCode, int wExperience, string education, string city, int vacancyNum, int rStatusCode)
+        public Application(int applicationNum, int applicantCode, int wExperience, string education, string city, int vacancyNum, int rStatusCode)
         {
-            ApplicantionCode = applicantionCode;
+            ApplicationNum = applicationNum;
             ApplicantCode = applicantCode;
             WExperience = wExperience;
             Education = education;

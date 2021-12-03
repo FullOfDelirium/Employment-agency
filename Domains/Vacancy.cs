@@ -3,9 +3,9 @@ using Praktika.repository;
 
 namespace Praktika.Domains
 {
-    public class Vacancy: StID
+    public class Vacancy: IIdentifier
     {
-
+        public int ID { get; set; }
         public int VacancyNum { get; set; }
 
         public int EmployerCode { get; set; }

@@ -7,65 +7,46 @@ using Praktika.Domains;
 
 namespace Praktika.repository
 {
-    public class StID
+    public class Storage<TIdentifier> where TIdentifier : IIdentifier
     {
-        public int ID { get; set; }
-    }
+        private static readonly string Path = "Storages/" + typeof(TIdentifier).Name + "s.xml";
+        private List<TIdentifier> storage = new();
 
-    public class Storages
-    {
-        public static Storage<Applicant> ApplicantStorage { get; } = new Storage<Applicant>();
-        public static Storage<Application> ApplicationStorage { get; } = new Storage<Application>();
-        public static Storage<Employer> EmployerStorage { get; } = new Storage<Employer>();
-        public static Storage<EmployerResponse> EmployerResponseStorage { get; } = new Storage<EmployerResponse>();
-        public static Storage<Moderator> ModeratorStorage { get; } = new Storage<Moderator>();
-        public static Storage<Resume> ResumeStorage { get; } = new Storage<Resume>();
-        public static Storage<Vacancy> VacancyStorage { get; } = new Storage<Vacancy>();
-        public static Storage<VerificationStatus> VerificationStatusStorage { get; } = new Storage<VerificationStatus>();
-    }
-
-    public class Storage<St> where St : StID
-    {
-        private static string path = typeof(St).Name + ".xml";
-        private List<St> storage = new List<St>();
 
         public Storage() { }
 
         public void ReadFromXMLFile()
         {
-            if (File.Exists(path))
-            {
-                XmlSerializer xs = new XmlSerializer(typeof(List<St>));
-                using (FileStream fs = new FileStream(path, FileMode.Open))
-                    storage = (List<St>)xs.Deserialize(fs);
-            }
+            if (!File.Exists(Path)) return;
+            var xs = new XmlSerializer(typeof(List<TIdentifier>));
+            using var fs = new FileStream(Path, FileMode.Open);
+            storage = (List<TIdentifier>)xs.Deserialize(fs);
         }
 
         public void SaveToXMLFile()
         {
-            XmlSerializer xs = new XmlSerializer(typeof(List<St>));
-            using (FileStream fs = new FileStream(path, FileMode.Create))
-                xs.Serialize(fs, storage);
+            if (!File.Exists(Path)) return;
+            var xs = new XmlSerializer(typeof(List<TIdentifier>));
+            using var fs = new FileStream(Path, FileMode.Open);
+            storage = (List<TIdentifier>)xs.Deserialize(fs);
         }
 
-        public bool Create(St obj)
+        public bool Create(TIdentifier obj)
         {
-            if (storage.Where(t => t.ID == obj.ID).Count() != 0)
+            if (storage.Any(t => t.ID == obj.ID))
                 return false;
             storage.Add(obj);
             return true;
         }
 
-        public St Read(int ID)
+        public TIdentifier Read(int ID)
         {
-            if (storage.Where(t => t.ID == ID).Count() != 0)
-                return storage.Where(t => t.ID == ID).First();
-            return null;
+            return storage.FirstOrDefault(t => t.ID == ID);
         }
 
-        public St Update(St obj)
+        public TIdentifier Update(TIdentifier obj)
         {
-            int index = storage.FindIndex(t => t.ID == obj.ID);
+            var index = storage.FindIndex(t => t.ID == obj.ID);
             if (index == -1)
                 Create(obj);
             else

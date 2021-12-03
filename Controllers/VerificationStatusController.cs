@@ -4,35 +4,49 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Praktika.Domains;
+using Praktika.repository;
 
 namespace Employment.Controllers
 {
     [ApiController]
-    [Route("/Vacancy")]
+    [Route("/VerificationStatus")]
     public class VerificationStatusController : ControllerBase
     {
         [HttpPost]
-        public string Create(string str)
+        public bool Create(VerificationStatus verificationStatus)
         {
-            return str;
+            return Storages.VerificationStatusStorage.Create(verificationStatus);
         }
 
         [HttpGet]
-        public string Read(string str)
+        public VerificationStatus Read(int ID)
         {
-            return str;
+            return Storages.VerificationStatusStorage.Read(ID);
         }
 
         [HttpPut]
-        public string Update(string str)
+        public VerificationStatus Update(VerificationStatus verificationStatus)
         {
-            return str;
+            return Storages.VerificationStatusStorage.Update(verificationStatus);
         }
 
         [HttpDelete]
-        public string Delete(string str)
+        public bool Delete(int ID)
         {
-            return str;
+            return Storages.VerificationStatusStorage.Delete(ID);
+        }
+
+        [HttpPost("SaveToFile")]
+        public void SaveToFile()
+        {
+            Storages.VerificationStatusStorage.SaveToXMLFile();
+        }
+
+        [HttpGet("ReadFromFile")]
+        public void ReadFromFile()
+        {
+            Storages.VerificationStatusStorage.ReadFromXMLFile();
         }
     }
 }

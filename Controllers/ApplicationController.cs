@@ -10,43 +10,43 @@ using Praktika.repository;
 namespace Employment.Controllers
 {
     [ApiController]
-    [Route("/Resume")]
-    public class ResumeController : ControllerBase
+    [Route("/Request")]
+    public class ApplicationController : ControllerBase
     {
         [HttpPost]
-        public bool Create(Resume resume)
+        public bool Create(Application application)
         {
-            return Storages.ResumeStorage.Create(resume);
+            return Storages.ApplicationStorage.Create(application);
         }
 
         [HttpGet]
-        public Resume Read(int ID)
+        public Application Read(int ID)
         {
-            return Storages.ResumeStorage.Read(ID);
+            return Storages.ApplicationStorage.Read(ID);
         }
 
         [HttpPut]
-        public Resume Update(Resume resume)
+        public Application Update(Application application)
         {
-            return Storages.ResumeStorage.Update(resume);
+            return Storages.ApplicationStorage.Update(application);
         }
 
         [HttpDelete]
         public bool Delete(int ID)
         {
-            return Storages.ResumeStorage.Delete(ID);
+            return Storages.ApplicationStorage.Delete(ID);
         }
 
         [HttpPost("SaveToFile")]
         public void SaveToFile()
         {
-            Storages.ResumeStorage.SaveToXMLFile();
+            Storages.ApplicationStorage.SaveToXMLFile();
         }
 
         [HttpGet("ReadFromFile")]
         public void ReadFromFile()
         {
-            Storages.ResumeStorage.ReadFromXMLFile();
+            Storages.ApplicationStorage.ReadFromXMLFile();
         }
     }
 }

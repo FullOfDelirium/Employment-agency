@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Praktika.Domains;
+using Praktika.repository;
 
 namespace Employment.Controllers
 {
@@ -36,27 +38,39 @@ namespace Employment.Controllers
         }
 
         [HttpPost]
-        public string Create(string str)
+        public bool Create(Applicant applicant)
         {
-            return str;
+            return Storages.ApplicantStorage.Create(applicant);
         }
 
         [HttpGet]
-        public string Read(string str)
+        public Applicant Read(int ID)
         {
-            return str;
+            return Storages.ApplicantStorage.Read(ID);
         }
 
         [HttpPut]
-        public string Update(string str)
+        public Applicant Update(Applicant applicant)
         {
-            return str;
+            return Storages.ApplicantStorage.Update(applicant);
         }
 
         [HttpDelete]
-        public string Delete(string str)
+        public bool Delete(int ID)
         {
-            return str;
+            return Storages.ApplicantStorage.Delete(ID);
+        }
+
+        [HttpPost("SaveToFile")]
+        public void SaveToFile()
+        {
+            Storages.ApplicantStorage.SaveToXMLFile();
+        }
+
+        [HttpGet("ReadFromFile")]
+        public void ReadFromFile()
+        {
+            Storages.ApplicantStorage.ReadFromXMLFile();
         }
     }
 }
