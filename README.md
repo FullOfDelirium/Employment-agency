@@ -31,7 +31,14 @@
 
 ## 3 Проектирование ИС
 Проектирование информационной системы начинается с создания Use Case диаграммы, в которой должны быть отображены действующие лица данной системы. В нашем случае это: соискатель, работодатель и модератор.
-![image]
+![Use Case Diagram drawio](https://user-images.githubusercontent.com/91204498/144711285-85f34aed-57e6-4a1f-a9a9-b55c88bc874b.png)
+
+Далее на основе данной Use Case диаграммы создается Data Flow диаграмма. Каждый эктор помечен своим цветом: соискатель - оранжевым, модератор - розовым, а работодатель - голубым. Так же на этой диаграмме присутствуют сущности и хранилища, они помечены серо-синим.
+![Data Flow Diagram drawio](https://user-images.githubusercontent.com/91204498/144711322-5fb30c7a-ddc0-4bd6-995f-7b9ae7518c5c.png)
+
+На основе сущностей и хранилищ, изображенных на DFD, проектируется Entity Relationship диаграмма.
+![Entity Relationship Diagram drawio](https://user-images.githubusercontent.com/91204498/144711732-e01776bf-681c-4c12-a3dd-87469db6da8b.png)
+
 <a name="conclusion"/>
 
 ## Заключение
