@@ -9,13 +9,13 @@ namespace Praktika.repository
 {
     public class Storage<TIdentifier> where TIdentifier : IIdentifier
     {
-        private static readonly string Path = "Storages/" + typeof(TIdentifier).Name + "s.xml";
+        private static readonly string Path = "Storages/" + typeof(TIdentifier).Name + "st.xml";
         private List<TIdentifier> storage = new();
 
 
         public Storage() { }
 
-        public void ReadFromXMLFile()
+        public void ReadFile()
         {
             if (!File.Exists(Path)) return;
             var xs = new XmlSerializer(typeof(List<TIdentifier>));
@@ -23,7 +23,7 @@ namespace Praktika.repository
             storage = (List<TIdentifier>)xs.Deserialize(fs);
         }
 
-        public void SaveToXMLFile()
+        public void SaveFile()
         {
             if (!File.Exists(Path)) return;
             var xs = new XmlSerializer(typeof(List<TIdentifier>));

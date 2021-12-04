@@ -64,13 +64,13 @@ namespace Employment.Controllers
         [HttpPost("SaveToFile")]
         public void SaveToFile()
         {
-            Storages.ModeratorStorage.SaveToXMLFile();
+            Storages.ModeratorStorage.SaveFile();
         }
 
         [HttpGet("ReadFromFile")]
         public void ReadFromFile()
         {
-            Storages.ModeratorStorage.ReadFromXMLFile();
+            Storages.ModeratorStorage.ReadFile();
         }
     }
 }

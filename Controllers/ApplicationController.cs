@@ -40,13 +40,13 @@ namespace Employment.Controllers
         [HttpPost("SaveToFile")]
         public void SaveToFile()
         {
-            Storages.ApplicationStorage.SaveToXMLFile();
+            Storages.ApplicationStorage.SaveFile();
         }
 
         [HttpGet("ReadFromFile")]
         public void ReadFromFile()
         {
-            Storages.ApplicationStorage.ReadFromXMLFile();
+            Storages.ApplicationStorage.ReadFile();
         }
     }
 }
