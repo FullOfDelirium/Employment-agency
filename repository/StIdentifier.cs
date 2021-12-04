@@ -7,7 +7,7 @@ using Praktika.Domains;
 
 namespace Praktika.repository
 {
-    public interface IIdentifier
+    public interface IStIdentifier
     {
         public int ID { get; set; }
     }
