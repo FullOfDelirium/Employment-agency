@@ -44,7 +44,7 @@
 ![image](https://user-images.githubusercontent.com/91204498/144712669-bb665c79-b9bc-4f20-9812-32d216d2ad57.png)
 
 Пример такого класса для сущности Соискатель(Applicant) представлен ниже:
-![image](https://user-images.githubusercontent.com/91204498/144712609-162e0ac2-1a75-4369-9eff-40350c823b1a.png)
+![image](https://user-images.githubusercontent.com/91204498/144720688-d34bc5d0-7ef1-4019-b5fd-e7ce226da2ed.png)
 
 После создания классов, для каждого из них создаются хранилища. Сначала создаем класс Stоrage, который будет содержать в себе логику работы с файлами и хранящимися объектами.
 
