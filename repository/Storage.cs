@@ -9,7 +9,7 @@ namespace Praktika.repository
 {
     public class Storage<TIdentifier> where TIdentifier : IIdentifier
     {
-        private static readonly string Path = "Storages/" + typeof(TIdentifier).Name + "storage.xml";
+        private static readonly string Path = typeof(TIdentifier).Name + "storage.xml";
         private List<TIdentifier> storage = new();
 
 
