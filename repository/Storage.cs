@@ -7,7 +7,7 @@ using Praktika.Domains;
 
 namespace Praktika.repository
 {
-    public class Storage<TIdentifier> where TIdentifier : IStIdentifier
+    public class Storage<TIdentifier> where TIdentifier : IStorageID
     {
         private static readonly string Path = typeof(TIdentifier).Name + "Storage.xml";
         private List<TIdentifier> storage = new();
@@ -15,7 +15,7 @@ namespace Praktika.repository
 
         public Storage() { }
 
-        public void ReadFile()
+        public void LoadFromStorage()
         {
             if (!File.Exists(Path)) return;
             var xs = new XmlSerializer(typeof(List<TIdentifier>));
@@ -23,7 +23,7 @@ namespace Praktika.repository
             storage = (List<TIdentifier>)xs.Deserialize(fs);
         }
 
-        public void SaveFile()
+        public void SaveToStorage()
         {
             if (!File.Exists(Path)) return;
             var xs = new XmlSerializer(typeof(List<TIdentifier>));

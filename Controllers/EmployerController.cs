@@ -67,16 +67,16 @@ namespace Employment.Controllers
             return Storages.EmployerStorage.Delete(ID);
         }
 
-        [HttpPost("SaveToFile")]
-        public void SaveToFile()
+        [HttpPost("SaveToStorage")]
+        public void SaveToStorage()
         {
-            Storages.EmployerStorage.SaveFile();
+            Storages.EmployerStorage.SaveToStorage();
         }
 
-        [HttpGet("ReadFromFile")]
-        public void ReadFromFile()
+        [HttpGet("LoadFromStorage")]
+        public void LoadFromStorage()
         {
-            Storages.EmployerStorage.ReadFile();
+            Storages.EmployerStorage.LoadFromStorage();
         }
     }
 }
