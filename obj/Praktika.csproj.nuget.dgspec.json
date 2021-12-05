@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Praktika\\Praktika.csproj": {}
+    "D:\\rsreu\\03_practice\\035\\Aguzarov\\Praktika.csproj": {}
   },
   "projects": {
-    "D:\\Praktika\\Praktika.csproj": {
+    "D:\\rsreu\\03_practice\\035\\Aguzarov\\Praktika.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Praktika\\Praktika.csproj",
+        "projectUniqueName": "D:\\rsreu\\03_practice\\035\\Aguzarov\\Praktika.csproj",
         "projectName": "Praktika",
-        "projectPath": "D:\\Praktika\\Praktika.csproj",
-        "packagesPath": "C:\\Users\\Master\\.nuget\\packages\\",
-        "outputPath": "D:\\Praktika\\obj\\",
+        "projectPath": "D:\\rsreu\\03_practice\\035\\Aguzarov\\Praktika.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "D:\\rsreu\\03_practice\\035\\Aguzarov\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Master\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
