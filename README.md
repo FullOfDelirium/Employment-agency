@@ -46,7 +46,7 @@
 Рисунок 2 - DFD
 На основе сущностей и хранилищ, изображенных на DFD, проектируется Entity Relationship диаграмма ([Рисунок 3](#picture3)). Каждая сущность содержит набор параметров с типами данных.
 <a name="picture3"/>
-![Entity Relationship Diagram drawio](https://user-images.githubusercontent.com/91204498/144711732-e01776bf-681c-4c12-a3dd-87469db6da8b.png)
+![Entity Relationship Diagram drawio](https://user-images.githubusercontent.com/91204498/144752785-affde5b6-3c6f-4374-a976-4015e1478d7b.png)
 
 Рисунок 3 - ERD
 
