@@ -50,6 +50,7 @@
 ![Data Flow Diagram drawio](https://user-images.githubusercontent.com/91204498/144711322-5fb30c7a-ddc0-4bd6-995f-7b9ae7518c5c.png)
 
 Рисунок 2 - DFD
+
 На основе сущностей и хранилищ, изображенных на DFD, проектируется Entity Relationship диаграмма ([Рисунок 3](#picture3)). Каждая сущность содержит набор параметров с типами данных.
 <a name="picture3"/>
 ![Entity Relationship Diagram drawio](https://user-images.githubusercontent.com/91204498/144753346-33fca7df-bf97-4034-904a-6be335beaf74.png)
@@ -63,10 +64,29 @@
 
 Рисунок 4 - Список классов 
 
-Пример такого класса для сущности Соискатель(Applicant) представлен ниже:
+Пример такого класса для сущности Соискатель(Applicant) представлен в листинге ниже:
+
+Листинг 1 - Код класса для сущности Соискатель
+
 ![image](https://user-images.githubusercontent.com/91204498/144720688-d34bc5d0-7ef1-4019-b5fd-e7ce226da2ed.png)
 
 После создания классов, для каждого из них создаются хранилища. Сначала создаем класс Stоrage, который будет содержать в себе логику работы с файлами и хранящимися объектами.
+
+Листинг 2 - Код класса Storage
+
+![image](https://user-images.githubusercontent.com/91204498/146257777-c7b35f28-0fbd-499f-bf2d-9422d8027959.png)
+
+Так же создается клас Storages, который содержит в себе объекты, которые будут хранить объекты наших классов в процессе работы программы.
+
+Листинг 3 - Код класса Storages
+
+![image](https://user-images.githubusercontent.com/91204498/146259711-6395cfa7-b803-4f6f-afaa-0ad2796e6c48.png)
+
+Далее создаются контроллеры с методами CRUD[<sup>[1]</sup>](#sourse_1) для каждой сущности. Пример кода такого контроллера для сущности резюме представлен в листинге ниже.
+
+Листинг 4 - Код контроллера для сущности резюме
+
+![image](https://user-images.githubusercontent.com/91204498/146261854-924e2be0-0ff0-4fd9-917c-04afac01f27a.png)
 
 <a name="testing"/>
 
@@ -78,4 +98,6 @@
 <a name="literature"/>
 
 ## Список литературы
-2<sup>3</sup>
+<a name="sourse_1"/>
+
+[1. CRUD Методы](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete)
