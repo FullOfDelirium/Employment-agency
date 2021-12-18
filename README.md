@@ -109,9 +109,24 @@
 1. Create позволяет добавлять новые строки ([Рисунок 7](#picture7))
 <a name="picture7"/>
 
-![Создание 1](https://user-images.githubusercontent.com/91204498/146641191-b9a3857c-0e56-4484-9e06-8f667e95bd81.png)
+![Создание 1](https://user-images.githubusercontent.com/91204498/146642448-026298bd-3ad7-4de5-90fc-fa9ca8bbc9f7.png)
 
 Рисунок 7 - Функция Create
+
+Ввод данных о резюме осуществляется в соответсвующих полях.([Рисунок 8](#picture8))
+<a name="picture8"/>
+
+![Создание 2](https://user-images.githubusercontent.com/91204498/146642495-50efc7a1-f39f-4d9f-bcad-ed68cd4948a2.png)
+
+Рисунок 8 - Ввод данных о резюме
+
+После успешного выполнения операции сервер выводит ответ в виде:([Рисунок 9](#picture9))
+<a name="picture8"/>
+
+![Создание 3](https://user-images.githubusercontent.com/91204498/146642661-f7779736-1f69-4dd5-9db3-ea8107e3244b.png)
+
+Рисунок 9 - Результат выполнения операции Create
+
 <a name="conclusion"/>
 
 ## Заключение
