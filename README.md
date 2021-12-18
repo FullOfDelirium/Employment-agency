@@ -92,11 +92,26 @@
 
 ## 4 Тестирование
 
-После запуска программы открывается страница Swagger UI со списком сущностей и операций над ними.
+После запуска программы открывается страница Swagger UI со списком сущностей и операций над ними.([Рисунок 5](#picture5))
+<a name="picture5"/>
 
-Листинг 5 - Страница Swagger UI
+![image](https://user-images.githubusercontent.com/91204498/146639800-860b21d8-f694-4c92-901c-35cde9cde3ab.png)
 
+Рисунок 5 - Страница Swagger UI
 
+Проверка работы методов CRUD в сущности Resume.([Рисунок 6](#picture6))
+<a name="picture6"/>
+
+![Безымянный](https://user-images.githubusercontent.com/91204498/146641079-2e8b6fd9-aef2-4a76-8e32-3c3390412cde.png)
+
+Рисунок 6 - Сущность Resume
+
+1. Create позволяет добавлять новые строки ([Рисунок 7](#picture7))
+<a name="picture7"/>
+
+![Создание 1](https://user-images.githubusercontent.com/91204498/146641191-b9a3857c-0e56-4484-9e06-8f667e95bd81.png)
+
+Рисунок 7 - Функция Create
 <a name="conclusion"/>
 
 ## Заключение
