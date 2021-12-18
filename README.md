@@ -43,26 +43,26 @@
 <a name="picture1"/>
 ![Use Case Diagram drawio](https://user-images.githubusercontent.com/91204498/144711285-85f34aed-57e6-4a1f-a9a9-b55c88bc874b.png)
 
-Рисунок 1 - Use Case диаграмма
+                                        Рисунок 1 - Use Case диаграмма
 
 Далее на основе данной Use Case диаграммы создается Data Flow диаграмма ([Рисунок 2](#picture2)). Каждый эктор помечен своим цветом: соискатель - оранжевым, модератор - розовым, а работодатель - голубым. Так же на этой диаграмме присутствуют сущности и хранилища, они помечены серо-синим.
 <a name="picture2"/>
 ![Data Flow Diagram drawio](https://user-images.githubusercontent.com/91204498/144711322-5fb30c7a-ddc0-4bd6-995f-7b9ae7518c5c.png)
 
-Рисунок 2 - DFD
+                                                Рисунок 2 - DFD
 
 На основе сущностей и хранилищ, изображенных на DFD, проектируется Entity Relationship диаграмма ([Рисунок 3](#picture3)). Каждая сущность содержит набор параметров с типами данных.
 <a name="picture3"/>
 ![Entity Relationship Diagram drawio](https://user-images.githubusercontent.com/91204498/144753346-33fca7df-bf97-4034-904a-6be335beaf74.png)
 
-Рисунок 3 - ERD
+                                               Рисунок 3 - ERD
 
 Далее на основе ERD в среде C# для каждой сущности создается класс и описывается с ее параметрами и типами данных.([Рисунок 4](#picture4))
 <a name="picture4"/>
 
 ![image](https://user-images.githubusercontent.com/91204498/144712669-bb665c79-b9bc-4f20-9812-32d216d2ad57.png)
 
-Рисунок 4 - Список классов 
+                                           Рисунок 4 - Список классов 
 
 Пример такого класса для сущности Соискатель(Applicant) представлен в листинге ниже:
 
@@ -97,36 +97,56 @@
 
 ![image](https://user-images.githubusercontent.com/91204498/146639800-860b21d8-f694-4c92-901c-35cde9cde3ab.png)
 
-Рисунок 5 - Страница Swagger UI
+                                        Рисунок 5 - Страница Swagger UI
 
 Проверка работы методов CRUD в сущности Resume.([Рисунок 6](#picture6))
 <a name="picture6"/>
 
 ![Безымянный](https://user-images.githubusercontent.com/91204498/146641079-2e8b6fd9-aef2-4a76-8e32-3c3390412cde.png)
 
-Рисунок 6 - Сущность Resume
+                                          Рисунок 6 - Сущность Resume
 
 1. Create позволяет добавлять новые строки ([Рисунок 7](#picture7))
 <a name="picture7"/>
 
 ![Создание 1](https://user-images.githubusercontent.com/91204498/146642448-026298bd-3ad7-4de5-90fc-fa9ca8bbc9f7.png)
 
-Рисунок 7 - Функция Create
+                                          Рисунок 7 - Функция Create
 
 Ввод данных о резюме осуществляется в соответсвующих полях.([Рисунок 8](#picture8))
 <a name="picture8"/>
 
 ![Создание 2](https://user-images.githubusercontent.com/91204498/146642495-50efc7a1-f39f-4d9f-bcad-ed68cd4948a2.png)
 
-Рисунок 8 - Ввод данных о резюме
+                                          Рисунок 8 - Ввод данных о резюме
 
 После успешного выполнения операции сервер выводит ответ в виде:([Рисунок 9](#picture9))
-<a name="picture8"/>
+<a name="picture9"/>
 
 ![Создание 3](https://user-images.githubusercontent.com/91204498/146642661-f7779736-1f69-4dd5-9db3-ea8107e3244b.png)
 
-Рисунок 9 - Результат выполнения операции Create
+                                   Рисунок 9 - Результат выполнения операции Create
+         
+2. Операция чтения Read позволяет извлекать определенные записи и считывать их значения.([Рисунок 10](#picture10))
+<a name="picture10"/>
 
+![рид 1](https://user-images.githubusercontent.com/91204498/146642899-f6f5b1ee-7add-4667-abe9-310318e465fe.png)
+
+                                          Рисунок 10 - Функция Read
+
+Для считывания информации об уже созданном резюме, его ID вводится в соответствующем поле.([Рисунок 11](#picture11))
+<a name="picture11"/>
+
+![рид 2](https://user-images.githubusercontent.com/91204498/146643054-470db840-3c30-4483-9fa0-a9c23124c878.png)
+
+                                   Рисунок 11 - Считывание информации о резюме
+                                   
+После выполнения операции сервер выдает информацию о резюме, ID которого был введен.([Рисунок 12](#picture12))             <a name="picture11"/>
+
+![рид 3](https://user-images.githubusercontent.com/91204498/146643203-a1b7fd54-dbad-4a42-945c-20621495800f.png)
+
+                                   Рисунок 12 - Результат выполнения операции Read
+                                   
 <a name="conclusion"/>
 
 ## Заключение
