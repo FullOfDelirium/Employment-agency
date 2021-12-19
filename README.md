@@ -72,8 +72,8 @@
 </p>
 
 Далее на основе ERD в среде C# для каждой сущности создается класс и описывается с ее параметрами и типами данных.(см. Рисунок 4)
-
-![image](https://user-images.githubusercontent.com/91204498/144712669-bb665c79-b9bc-4f20-9812-32d216d2ad57.png)
+<p align="center"> 
+  <img src="https://user-images.githubusercontent.com/91204498/144712669-bb665c79-b9bc-4f20-9812-32d216d2ad57.png"<br>
 <p align="center"> 
   Рисунок 4 - Список классов 
 </p>
