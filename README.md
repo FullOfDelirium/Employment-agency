@@ -79,30 +79,30 @@
 </p>
 
 Пример такого класса для сущности Соискатель(Applicant) представлен ниже(см. Рисунок 5):
-
-![image](https://user-images.githubusercontent.com/91204498/144720688-d34bc5d0-7ef1-4019-b5fd-e7ce226da2ed.png)
+<p align="center"> 
+  <img src="https://user-images.githubusercontent.com/91204498/144720688-d34bc5d0-7ef1-4019-b5fd-e7ce226da2ed.png"<br>
 <p align="center"> 
   Рисунок 5 - Код класса для сущности Соискатель
 </p>
 
 После создания классов, для каждого из них создаются хранилища. Сначала создаем класс Stоrage, который будет содержать в себе логику работы с файлами и хранящимися объектами.(см. Рисунок 6)
-
-![image](https://user-images.githubusercontent.com/91204498/146257777-c7b35f28-0fbd-499f-bf2d-9422d8027959.png)
+<p align="center"> 
+  <img src="https://user-images.githubusercontent.com/91204498/146257777-c7b35f28-0fbd-499f-bf2d-9422d8027959.png"<br>
 <p align="center"> 
   Рисунок 6 - Код класса Storage
 </p>
 
 Так же создается клас Storages, который содержит в себе объекты, которые будут хранить объекты наших классов в процессе работы программы.(см. Рисунок 7)
-
-![image](https://user-images.githubusercontent.com/91204498/146259711-6395cfa7-b803-4f6f-afaa-0ad2796e6c48.png)
+<p align="center"> 
+  <img src="https://user-images.githubusercontent.com/91204498/146259711-6395cfa7-b803-4f6f-afaa-0ad2796e6c48.png"<br>
 <p align="center">
   Рисунок 7 - Код класса Storages
 </p>
 
 Далее создаются контроллеры с методами CRUD[<sup>[6]</sup>](#sourse_6) для каждой сущности. Пример кода такого контроллера для сущности резюме представлен в листинге ниже.(см. Рисунок 8)
-
-![image](https://user-images.githubusercontent.com/91204498/146261854-924e2be0-0ff0-4fd9-917c-04afac01f27a.png)
 <p align="center">
+  <img src="https://user-images.githubusercontent.com/91204498/146261854-924e2be0-0ff0-4fd9-917c-04afac01f27a.png"<br/>
+<p align="center">  
   Рисунок 8 - Код контроллера для сущности резюме
 </p>
 
