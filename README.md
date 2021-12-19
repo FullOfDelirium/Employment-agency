@@ -216,7 +216,7 @@
 <a name="literature"> </a>
 
 ## Список литературы
-<a name="sourse_1"/></a>
+<a name="source_1"/></a>
 
 [1] Как создавать нотации DFD [Электронный ресурс]/Trinion-Что такое DFD (диаграммы потоков данных), 2017 - Режим доступа:https://habr.com/ru/company/trinion/blog/340064/, cвободный
 <a name="sourse_2"/></a>
