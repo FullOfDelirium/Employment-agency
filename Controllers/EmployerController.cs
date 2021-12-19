@@ -56,9 +56,9 @@ namespace Employment.Controllers
         }
 
         [HttpPut]
-        public Employer Update(Employer employer)
+        public Employer Update(int ID, Employer employer)
         {
-            return Storages.EmployerStorage.Update(employer);
+            return Storages.EmployerStorage.Update(ID, employer);
         }
 
         [HttpDelete]

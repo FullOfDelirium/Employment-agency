@@ -26,9 +26,9 @@ namespace Employment.Controllers
         }
 
         [HttpPut]
-        public Vacancy Update(Vacancy vacancy)
+        public Vacancy Update(int ID, Vacancy vacancy)
         {
-            return Storages.VacancyStorage.Update(vacancy);
+            return Storages.VacancyStorage.Update(ID, vacancy);
         }
 
         [HttpDelete]

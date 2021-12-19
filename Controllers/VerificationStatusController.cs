@@ -26,9 +26,9 @@ namespace Employment.Controllers
         }
 
         [HttpPut]
-        public VerificationStatus Update(VerificationStatus verificationStatus)
+        public VerificationStatus Update(int ID, VerificationStatus verificationStatus)
         {
-            return Storages.VerificationStatusStorage.Update(verificationStatus);
+            return Storages.VerificationStatusStorage.Update(ID, verificationStatus);
         }
 
         [HttpDelete]

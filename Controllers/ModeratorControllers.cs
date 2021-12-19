@@ -50,9 +50,9 @@ namespace Employment.Controllers
         }
 
         [HttpPut]
-        public Moderator Update(Moderator moderator)
+        public Moderator Update(int ID, Moderator moderator)
         {
-            return Storages.ModeratorStorage.Update(moderator);
+            return Storages.ModeratorStorage.Update(ID, moderator);
         }
 
         [HttpDelete]

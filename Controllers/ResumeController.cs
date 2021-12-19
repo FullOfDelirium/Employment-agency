@@ -26,9 +26,9 @@ namespace Employment.Controllers
         }
 
         [HttpPut]
-        public Resume Update(Resume resume)
+        public Resume Update(int ID, Resume uresume)
         {
-            return Storages.ResumeStorage.Update(resume);
+            return Storages.ResumeStorage.Update(ID, uresume);
         }
 
         [HttpDelete]

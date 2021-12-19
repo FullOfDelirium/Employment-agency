@@ -50,9 +50,9 @@ namespace Employment.Controllers
         }
 
         [HttpPut]
-        public Applicant Update(Applicant applicant)
+        public Applicant Update(int ID, Applicant applicant)
         {
-            return Storages.ApplicantStorage.Update(applicant);
+            return Storages.ApplicantStorage.Update(ID, applicant);
         }
 
         [HttpDelete]

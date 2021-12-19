@@ -26,9 +26,9 @@ namespace Employment.Controllers
         }
 
         [HttpPut]
-        public Application Update(Application application)
+        public Application Update(int ID, Application application)
         {
-            return Storages.ApplicationStorage.Update(application);
+            return Storages.ApplicationStorage.Update(ID, application);
         }
 
         [HttpDelete]

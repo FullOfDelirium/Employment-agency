@@ -44,7 +44,7 @@ namespace Praktika.repository
             return storage.FirstOrDefault(t => t.ID == ID);
         }
 
-        public TIdentifier Update(TIdentifier obj)
+        public TIdentifier Update(int iD, TIdentifier obj)
         {
             var index = storage.FindIndex(t => t.ID == obj.ID);
             if (index == -1)
